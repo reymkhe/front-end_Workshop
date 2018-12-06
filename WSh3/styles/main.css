@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family:'Open Sans', sans-serif;
+}
+
+.blog-post {
+    max-width: 1250px;
+    width: 100%;
+    margin: 100px auto 0 auto;
+    box-sizing: border-box;
+}
+
+.blog-post__header {
+    height: 220px;
+    text-align: center;
+}
+
+.blog-post__header-title {
+    margin: 0;
+    font-size: 50px;
+    letter-spacing: 6px;
+    line-height: 59px;
+    color: #000000;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+}
+
+.blog-post__header-text {
+    margin-top: 35px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    color: #798285;
+    padding: 0 150px;
+}
+
+.blog-post__content {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content__left, .content__right {
+    vertical-align: top;
+    text-align: left;
+    padding-left: 25px;
+}
+
+.content__left {
+    max-width: 500px;
+    width: 100%;
+}
+
+.content__right {
+    max-width: 700px;
+    width: 100%;
+}
+
+.blog-post__date {
+    margin: 15px auto 0 auto;
+    font-size: 14px;
+    line-height: 34px;
+    color: #595959;
+    font-weight: bold;
+    border-bottom: 1px solid #000000;
+}
+
+.blog-post__name {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.blog-post__title {
+    margin: 0;
+    font-size: 23px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.blog-post__text {
+    margin-bottom: 45px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #acacac;
+}
+
+.blog-post__button {
+    margin-top: 45px;
+}
+
+.button {
+    padding: 20px 80px;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #000000;
+}
+
+.blog-post__footer {
+    height: 700px;
+    background: url(../images/img_footer.img) no-repeat center;
+    margin-top: -200px;
+}
+
+@media screen and (max-width: 750px) {
+    .blog-post__header-text {
+        padding: 0 50px;
+    }
+
+    .blog-post__content {
+        flex-direction: column;  
+    }
+
+    .content__left, .content__right {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .blog-post__date {
+        margin: 0;
+    }
+
+    .blog-post__text {
+        text-align: justify;
+    }
+
+    .blog-post__button {
+        align-self: center;
+    }
+
+    .blog-post__footer {
+        margin: 0;
+    }
+}
+   
