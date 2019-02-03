@@ -1,0 +1,27 @@
+.footer {
+    margin: 0;
+    height: 97px;
+    background-color: #f0f0f0;
+}
+
+.footer__info {
+    margin: 0;
+    padding: 42px 0 0 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__info-item {
+    list-style: none;
+    padding-right: 15px;
+}
+
+.footer__info-link {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #303030;
+    text-decoration: none;
+}
+
+

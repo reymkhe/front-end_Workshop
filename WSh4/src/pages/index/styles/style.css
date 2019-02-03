@@ -1,0 +1,35 @@
+.blog-post {
+    display: flex;
+    flex-direction: row;
+    margin: 85px 67px 150px;
+}
+
+.blog-post__content {
+    padding-left: 75px;
+}
+
+.content__theme {
+    margin: 0px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #b4ad9e;
+}
+
+.content__title {
+    margin-top: 25px;
+    font-size: 30px;
+    color: #626262;
+}
+
+.content__text {
+    margin-top: 30px; 
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;
+}
+
+.content__image {
+    margin: 0;
+}
+
+
