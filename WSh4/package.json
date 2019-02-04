@@ -10,9 +10,11 @@
   "license": "ISC",
   "dependencies": {
     "browser-sync": "^2.26.3",
-    "gulp": "^4.0.0",
     "gulp-compile-handlebars": "^0.6.1",
     "gulp-concat": "^2.6.1",
     "gulp-rename": "^1.4.0"
+  },
+  "devDependencies": {
+    "ws": "3.3.2"
   }
 }

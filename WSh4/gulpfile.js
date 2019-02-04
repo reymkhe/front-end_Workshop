@@ -20,7 +20,7 @@ var path = {
   }
 };
 
-gulp.task('default', gulp.parallel('html', 'css', 'images', 'watch', 'hotReload'));
+gulp.task('default', ['html', 'css', 'images', 'watch', 'hotReload']);
 
 gulp.task('html', function () {
   return gulp.src(path.html.pages)
@@ -50,10 +50,10 @@ gulp.task('images', function () {
 });
 
 gulp.task('watch', function () {
-  gulp.watch(path.html.pages, gulp.series('html'));
-  gulp.watch(path.html.components, gulp.series('html'));
-  gulp.watch(path.css, gulp.series('css'));
-  gulp.watch(path.images, gulp.series('images'));
+ gulp.watch(path.html.pages, ['html']);
+  gulp.watch(path.html.components, ['html']);
+  gulp.watch(path.css, ['css']);
+  gulp.watch(path.images, ['images']);
 });
 
 gulp.task('hotReload', function () {

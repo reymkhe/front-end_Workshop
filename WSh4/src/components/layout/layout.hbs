@@ -8,8 +8,11 @@
 <body>
     {{> header/header}}
 
-    {{> @partial-block}}
-        
-    {{> footer/footer}}  
+    <article class="blog-post">
+        {{> @partial-block}}
+        {{> sidebar/sidebar}}
+    </article>
+
+    {{> footer/footer}} 
 </body>
 </html>
