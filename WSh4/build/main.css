@@ -1,0 +1,160 @@
+.footer {
+    margin: 0;
+    height: 97px;
+    background-color: #f0f0f0;
+}
+
+.footer__info {
+    margin: 0;
+    padding: 42px 0 0 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__info-item {
+    list-style: none;
+    padding-right: 15px;
+}
+
+.footer__info-link {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #303030;
+    text-decoration: none;
+}
+
+
+
+.header {
+    margin: 55px 67px 0;
+    height: 615px;
+    background: url(../images/header_image.jpg) no-repeat center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header__logo, .header__nav {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.header__logo {
+    width: 120px;
+    height: 25px;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav__item {
+    padding-left: 85px;
+}
+
+.nav__link {
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #aeaeae;
+    text-decoration: none;
+}
+
+
+body {
+    width: 1200px;
+    font-family: Arial;
+}
+
+.blog-post__sidebar {
+    margin-left: 40px;
+}
+
+.sidebar__title {
+    margin: 15px 0 15px 0;
+    font-size: 24px;
+    color: #626262;
+}
+
+.sidebar__text {
+    margin-bottom: 25px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #626262;
+}
+
+.sidebar__top-posts-title {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #d9d5ce;
+}
+
+.sidebar__top_posts {
+    margin-top: 33px;
+    padding-left: 35px;
+}
+
+.top-posts__item {
+    margin-bottom: 12px;
+    list-style-type: disc;
+}
+
+.top-posts__link {    
+    font-size: 16px;
+    color: #626262;
+    text-decoration: none;
+}
+
+.top-posts__comments-item {
+    margin-bottom: 28px;
+    list-style: none;
+}
+
+.top-posts__comments-link {
+    margin-bottom: 28px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #b4ad9e;
+    text-decoration: none;
+}
+
+
+
+.blog-post {
+    display: flex;
+    flex-direction: row;
+    margin: 85px 67px 150px;
+}
+
+.blog-post__content {
+    padding-left: 75px;
+}
+
+.content__theme {
+    margin: 0px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #b4ad9e;
+}
+
+.content__title {
+    margin-top: 25px;
+    font-size: 30px;
+    color: #626262;
+}
+
+.content__text {
+    margin-top: 30px; 
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;
+}
+
+.content__image {
+    margin: 0;
+}
+
+
